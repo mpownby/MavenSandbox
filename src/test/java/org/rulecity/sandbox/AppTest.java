@@ -14,11 +14,10 @@ public class AppTest
      * Rigorous Test :-)
      */
     @Test
-    public void shouldAnswerWithTrue()
-    {
-	App instance = new App();
+    public void shouldAnswerWithTrue() {
+        App instance = new App();
 
-	int result = instance.multiply(5, 6);
+        int result = instance.multiply(5, 6);
 
         assertEquals(30, result);
     }
